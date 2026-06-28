@@ -34,6 +34,25 @@ A modern, async rewrite of the original
 
 Then **Settings → Devices & Services → Add Integration → DWD Pollenflug** and select your regions.
 
+## Lovelace card
+
+A matching self-contained card lives in [`card/`](card/) — no build step, no
+dependencies. Copy `card/dwd-pollenflug-card.js` to `config/www/`, add it as a
+*JavaScript Module* dashboard resource, then:
+
+```yaml
+type: custom:dwd-pollenflug-card
+title: Pollenflug – Inseln und Marschen   # optional
+forecast: true
+entities:
+  - sensor.<region>_grasses
+  - sensor.<region>_birch
+  # ... the other pollen sensors of the region
+```
+
+It shows a colour-coded level bar per pollen type plus Heute/Morgen/Übermorgen
+chips. See [`card/README.md`](card/README.md) for details.
+
 ## Sensor state
 
 The state is today's index for that pollen type:
