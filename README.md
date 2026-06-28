@@ -36,9 +36,11 @@ Then **Settings → Devices & Services → Add Integration → DWD Pollenflug** 
 
 ## Lovelace card
 
-A matching self-contained card lives in [`card/`](card/) — no build step, no
-dependencies. Copy `card/dwd-pollenflug-card.js` to `config/www/`, add it as a
-*JavaScript Module* dashboard resource, then:
+A matching Lovelace card lives in its own repository:
+**[lovelace-dwd-pollenflug-card](https://github.com/NerdySoftPaw/lovelace-dwd-pollenflug-card)**.
+Install it via HACS (category: *Dashboard*) for automatic resource registration —
+it ships a GUI editor and a live preview in the card picker, and auto-discovers
+this integration's sensors.
 
 ```yaml
 type: custom:dwd-pollenflug-card
@@ -49,9 +51,6 @@ entities:
   - sensor.<region>_birch
   # ... the other pollen sensors of the region
 ```
-
-It shows a colour-coded level bar per pollen type plus Heute/Morgen/Übermorgen
-chips. See [`card/README.md`](card/README.md) for details.
 
 ## Sensor state
 
