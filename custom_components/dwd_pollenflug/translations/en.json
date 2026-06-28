@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DWD Pollenflug",
+        "description": "Select the region(s) you want to monitor.",
+        "data": {
+          "regions": "Regions"
+        }
+      }
+    },
+    "abort": {
+      "cannot_connect": "Could not reach the DWD open-data service.",
+      "single_instance_allowed": "Already configured. Use the integration options to change regions."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DWD Pollenflug",
+        "description": "Add or remove monitored regions.",
+        "data": {
+          "regions": "Regions"
+        }
+      }
+    },
+    "abort": {
+      "cannot_connect": "Could not reach the DWD open-data service."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "hasel": { "name": "Hazel" },
+      "erle": { "name": "Alder" },
+      "esche": { "name": "Ash" },
+      "birke": { "name": "Birch" },
+      "graeser": { "name": "Grasses" },
+      "roggen": { "name": "Rye" },
+      "beifuss": { "name": "Mugwort" },
+      "ambrosia": { "name": "Ragweed" }
+    }
+  }
+}

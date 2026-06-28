@@ -1,0 +1,120 @@
+{
+  "legend": {
+    "id7": "3",
+    "id6_desc": "mittlere bis hohe Belastung",
+    "id5": "2",
+    "id2_desc": "keine bis geringe Belastung",
+    "id3_desc": "geringe Belastung",
+    "id5_desc": "mittlere Belastung",
+    "id2": "0-1",
+    "id3": "1",
+    "id4_desc": "geringe bis mittlere Belastung",
+    "id4": "1-2",
+    "id1": "0",
+    "id7_desc": "hohe Belastung",
+    "id1_desc": "keine Belastung",
+    "id6": "2-3"
+  },
+  "last_update": "2026-06-28 11:00 Uhr",
+  "name": "Pollenflug-Gefahrenindex für Deutschland ausgegeben vom Deutschen Wetterdienst",
+  "sender": "Deutscher Wetterdienst - Medizin-Meteorologie",
+  "next_update": "2026-06-29 11:00 Uhr",
+  "content": [
+    {
+      "partregion_name": "Inseln und Marschen",
+      "region_name": "Schleswig-Holstein und Hamburg",
+      "region_id": 10,
+      "partregion_id": 11,
+      "Pollen": {
+        "Birke": {
+          "today": "0",
+          "tomorrow": "0",
+          "dayafter_to": "0"
+        },
+        "Beifuss": {
+          "today": "0",
+          "tomorrow": "0",
+          "dayafter_to": "0"
+        },
+        "Graeser": {
+          "today": "2-3",
+          "dayafter_to": "2-3",
+          "tomorrow": "2-3"
+        },
+        "Esche": {
+          "tomorrow": "0",
+          "dayafter_to": "0",
+          "today": "0"
+        },
+        "Erle": {
+          "tomorrow": "0",
+          "dayafter_to": "0",
+          "today": "0"
+        },
+        "Hasel": {
+          "dayafter_to": "0",
+          "tomorrow": "0",
+          "today": "0"
+        },
+        "Ambrosia": {
+          "today": "0",
+          "dayafter_to": "0",
+          "tomorrow": "0"
+        },
+        "Roggen": {
+          "today": "0",
+          "dayafter_to": "0",
+          "tomorrow": "0"
+        }
+      }
+    },
+    {
+      "partregion_id": 12,
+      "Pollen": {
+        "Birke": {
+          "today": "0",
+          "tomorrow": "0",
+          "dayafter_to": "0"
+        },
+        "Beifuss": {
+          "dayafter_to": "0",
+          "tomorrow": "0",
+          "today": "0"
+        },
+        "Esche": {
+          "today": "0",
+          "tomorrow": "0",
+          "dayafter_to": "0"
+        },
+        "Graeser": {
+          "tomorrow": "2-3",
+          "dayafter_to": "2-3",
+          "today": "2-3"
+        },
+        "Erle": {
+          "today": "0",
+          "dayafter_to": "0",
+          "tomorrow": "0"
+        },
+        "Ambrosia": {
+          "dayafter_to": "0",
+          "tomorrow": "0",
+          "today": "0"
+        },
+        "Hasel": {
+          "today": "0",
+          "dayafter_to": "0",
+          "tomorrow": "0"
+        },
+        "Roggen": {
+          "today": "0",
+          "dayafter_to": "0",
+          "tomorrow": "0"
+        }
+      },
+      "partregion_name": "Geest,Schleswig-Holstein und Hamburg",
+      "region_name": "Schleswig-Holstein und Hamburg",
+      "region_id": 10
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "dwd_pollenflug",
+  "name": "DWD Pollenflug",
+  "codeowners": ["@NerdySoftPaw"],
+  "config_flow": true,
+  "documentation": "https://github.com/NerdySoftPaw/ha-dwd-pollenflug",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/NerdySoftPaw/ha-dwd-pollenflug/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "2.0.0"
+}

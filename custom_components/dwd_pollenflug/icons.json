@@ -1,0 +1,14 @@
+{
+  "entity": {
+    "sensor": {
+      "hasel": { "default": "mdi:flower-pollen" },
+      "erle": { "default": "mdi:flower-pollen" },
+      "esche": { "default": "mdi:flower-pollen" },
+      "birke": { "default": "mdi:flower-pollen" },
+      "graeser": { "default": "mdi:grass" },
+      "roggen": { "default": "mdi:barley" },
+      "beifuss": { "default": "mdi:flower-pollen" },
+      "ambrosia": { "default": "mdi:flower-pollen" }
+    }
+  }
+}
